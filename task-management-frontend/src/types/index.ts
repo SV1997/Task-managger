@@ -81,7 +81,7 @@ export const STATUSES = [
   'pending',
   'in-progress',
   'completed',
-  'cancelled'
+  'awaiting for instructions'
 ] as const;
 
 export const PRIORITIES = [
