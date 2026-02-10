@@ -38,7 +38,7 @@ export interface TaskFormData {
   division: string;
   task: string;
   dateOfTask: string;
-  status?: 'pending' | 'in-progress' | 'completed' | 'awaiting for instructions';
+  status?: 'pending' | 'in-progress' | 'completed' | 'awaiting further instructions';
   priority?: 'low' | 'medium' | 'high' | 'urgent';
 }
 
@@ -56,7 +56,7 @@ export interface TaskStats {
   pending: number;
   inProgress: number;
   completed: number;
-  awaitingForInstructions: number;
+  awaitingFurtherInstructions: number;
   byDivision: Array<{ _id: string; count: number }>;
   byPriority: Array<{ _id: string; count: number }>;
 }
@@ -81,7 +81,7 @@ export const STATUSES = [
   'pending',
   'in-progress',
   'completed',
-  'awaiting for instructions'
+  'awaiting further instructions'
 ] as const;
 
 export const PRIORITIES = [
