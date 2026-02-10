@@ -295,3 +295,46 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--scrollbar-thumb-hover);
 }
+
+.top-nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.nav-card {
+  width: 180px;
+  min-height: 120px;
+  border-radius: 18px;
+  border: 2px solid transparent;
+  font-size: 26px;
+  line-height: 1.15;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+
+.nav-add { background: #1f66ff; color: #fff; }
+.nav-view { background: #fff; color: #333; border-color: #e6e6e6; }
+.nav-export { background: #16a34a; color: #fff; }
+
+.nav-card.active {
+  outline: 3px solid rgba(255,255,255,0.35);
+  transform: translateY(-1px);
+}
+
+.nav-card:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.export-icon {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  font-size: 18px;
+}
+
