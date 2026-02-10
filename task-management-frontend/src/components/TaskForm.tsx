@@ -111,7 +111,7 @@ export const TaskForm = ({ onSuccess }: TaskFormProps) => {
             options={AUTHORS}
             selected={selectedAuthors}
             onChange={setSelectedAuthors}
-            placeholder="Select Author/s"
+            placeholder="Select Author/(s)"
             label="Authors *"
           />
         </div>
@@ -121,7 +121,7 @@ export const TaskForm = ({ onSuccess }: TaskFormProps) => {
             options={DIVISIONS}
             selected={selectedDivisions}
             onChange={setSelectedDivisions}
-            placeholder="Select Division/s"
+            placeholder="Select Division/(s)"
             label="Divisions *"
           />
         </div>
