@@ -304,7 +304,7 @@ body {
 
 @media (max-width: 480px) {
   .top-nav {
-    flex-direction: column;
+    flex-direction: row;
     align-items: stretch;
   }
 

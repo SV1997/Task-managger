@@ -64,8 +64,8 @@ export interface TaskStats {
 export const AUTHORS = [
   'Aditya Prakash Rao',
   'Shreya Ramakrishnan',
-  'Shaashwat Jindal',
   'Preksha Dugar',
+  'Shaashwat Jindal',
   'Vaibhav Sharma',
   'Aditya Pandey'
 ] as const;
