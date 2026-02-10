@@ -128,25 +128,25 @@ export const TaskForm = ({ onSuccess }: TaskFormProps) => {
       </div>
 
       <div className="form-group">
-        <label className="form-label">Task Description</label>
+        <label className="form-label">Task Description *</label>
         <textarea
           className="form-textarea"
           value={task}
           onChange={(e) => setTask(e.target.value)}
           placeholder="Enter task description..."
           rows={4}
+          required
         />
       </div>
 
       <div className="form-grid">
         <div className="form-group">
-          <label className="form-label">Task Assigned On *</label>
+          <label className="form-label">Task Assigned On</label>
           <input
             type="date"
             className="form-input"
             value={dateOfTask}
             onChange={(e) => setDateOfTask(e.target.value)}
-            required
           />
         </div>
 
