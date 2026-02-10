@@ -16,7 +16,7 @@ function DashboardHeader({
             </svg>
           </div>
           <div>
-            <h1 className="app-title">Task Management</h1>
+            <h1 className="app-title">Work Log</h1>
             <p className="app-subtitle">Organize and track your tasks efficiently</p>
           </div>
         </div>

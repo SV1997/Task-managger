@@ -38,7 +38,7 @@ export interface TaskFormData {
   division: string;
   task: string;
   dateOfTask: string;
-  status?: 'pending' | 'in-progress' | 'completed' | 'cancelled';
+  status?: 'pending' | 'in-progress' | 'completed' | 'awaiting for instructions';
   priority?: 'low' | 'medium' | 'high' | 'urgent';
 }
 

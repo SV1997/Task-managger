@@ -145,7 +145,7 @@ export const TaskForm = ({ onSuccess }: TaskFormProps) => {
 
       <div className="form-grid">
         <div className="form-group">
-          <label className="form-label">Date of Task *</label>
+          <label className="form-label">Task Assigned On *</label>
           <input
             type="date"
             className="form-input"
@@ -197,7 +197,7 @@ export const TaskForm = ({ onSuccess }: TaskFormProps) => {
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path d="M10 4V16M4 10H16" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
             </svg>
-            Create Task
+            Submit
           </>
         )}
       </button>
