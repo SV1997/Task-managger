@@ -17,7 +17,7 @@ function DashboardHeader({
           </div>
           <div>
             <h1 className="app-title">Work Log</h1>
-            <p className="app-subtitle">Organize and track your tasks efficiently</p>
+            <p className="app-subtitle">PLR Chambers (MoRTH)</p>
           </div>
         </div>
 
