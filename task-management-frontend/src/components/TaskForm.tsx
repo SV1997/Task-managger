@@ -111,8 +111,8 @@ export const TaskForm = ({ onSuccess }: TaskFormProps) => {
             options={AUTHORS}
             selected={selectedAuthors}
             onChange={setSelectedAuthors}
-            placeholder="Select Author(s)"
-            label="Authors *"
+            placeholder="Select resource(s)"
+            label="Resourc(es) *"
           />
         </div>
 
@@ -122,7 +122,7 @@ export const TaskForm = ({ onSuccess }: TaskFormProps) => {
             selected={selectedDivisions}
             onChange={setSelectedDivisions}
             placeholder="Select Division(s)"
-            label="Divisions *"
+            label="Division(s) *"
           />
         </div>
       </div>
