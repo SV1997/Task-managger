@@ -39,10 +39,6 @@ export const TaskForm = ({ onSuccess }: TaskFormProps) => {
       setError('Please enter a task description');
       return;
     }
-    if (!dateOfTask) {
-      setError('Please select a date');
-      return;
-    }
 
     setLoading(true);
 
@@ -115,7 +111,7 @@ export const TaskForm = ({ onSuccess }: TaskFormProps) => {
             options={AUTHORS}
             selected={selectedAuthors}
             onChange={setSelectedAuthors}
-            placeholder="Select authors"
+            placeholder="Select author/s"
             label="Authors *"
           />
         </div>
@@ -125,21 +121,20 @@ export const TaskForm = ({ onSuccess }: TaskFormProps) => {
             options={DIVISIONS}
             selected={selectedDivisions}
             onChange={setSelectedDivisions}
-            placeholder="Select divisions"
+            placeholder="Select division/s"
             label="Divisions *"
           />
         </div>
       </div>
 
       <div className="form-group">
-        <label className="form-label">Task Description *</label>
+        <label className="form-label">Task Description</label>
         <textarea
           className="form-textarea"
           value={task}
           onChange={(e) => setTask(e.target.value)}
           placeholder="Enter task description..."
           rows={4}
-          required
         />
       </div>
 
