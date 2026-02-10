@@ -57,9 +57,6 @@ function DashboardHeader({
               </>
             ) : (
               <>
-                <span className="export-icon" aria-hidden="true">
-                  ⬇
-                </span>
                 Export
                 <br />
                 to

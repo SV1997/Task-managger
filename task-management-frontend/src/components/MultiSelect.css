@@ -140,3 +140,70 @@
 .multi-select-dropdown::-webkit-scrollbar-thumb:hover {
   background: var(--scrollbar-thumb-hover);
 }
+
+/* Add to end of MultiSelect.css */
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .multi-select-trigger {
+    padding: 12px 14px;
+    min-height: 48px;
+    font-size: 14px;
+  }
+
+  .multi-select-text {
+    font-size: 14px;
+  }
+
+  .multi-select-arrow {
+    width: 18px;
+    height: 18px;
+  }
+
+  .multi-select-dropdown {
+    max-height: 240px;
+    border-radius: 10px;
+  }
+
+  .multi-select-option {
+    padding: 10px 14px;
+    gap: 10px;
+  }
+
+  .multi-select-checkbox {
+    width: 18px;
+    height: 18px;
+  }
+
+  .multi-select-option-text {
+    font-size: 14px;
+  }
+
+  .multi-select-label {
+    font-size: 13px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .multi-select-trigger {
+    padding: 11px 12px;
+    min-height: 44px;
+  }
+
+  .multi-select-text {
+    font-size: 13px;
+  }
+
+  .multi-select-dropdown {
+    max-height: 200px;
+  }
+
+  .multi-select-option {
+    padding: 9px 12px;
+  }
+
+  .multi-select-option-text {
+    font-size: 13px;
+  }
+}
