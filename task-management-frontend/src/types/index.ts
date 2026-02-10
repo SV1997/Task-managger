@@ -56,7 +56,7 @@ export interface TaskStats {
   pending: number;
   inProgress: number;
   completed: number;
-  cancelled: number;
+  awaitingForInstructions: number;
   byDivision: Array<{ _id: string; count: number }>;
   byPriority: Array<{ _id: string; count: number }>;
 }
